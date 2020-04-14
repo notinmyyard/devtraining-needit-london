@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">6a041919db5533008c7e1fc7689619d2</block>
+        <comment/>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Update Group Membership">98a268a3db8933008c7e1fc768961991</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 21:25:23</sys_created_on>
+        <sys_id>a2041919db5533008c7e1fc7689619d4</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_a2041919db5533008c7e1fc7689619d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-09 16:35:13</sys_updated_on>
+        <ui_id>9ec386f6-8c81-48a3-bc99-81558d0b9467</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=a2041919db5533008c7e1fc7689619d4"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a2041919db5533008c7e1fc7689619d4</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 21:25:23</sys_created_on>
+        <sys_id>a2041919db5533008c7e1fc7689619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 21:25:23</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a2041919db5533008c7e1fc7689619d4</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 21:25:23</sys_created_on>
+        <sys_id>ee041919db5533008c7e1fc7689619d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-07 21:31:43</sys_updated_on>
+        <value>{{475982cb-9f90-4d49-a313-a389b527284b.approval_state}}=approved</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>75f92474dbbf974c7e55d5b0cf961944</instance_id>
+        <instance_name>dev69078</instance_name>
+        <name>sys_hub_flow_logic_a2041919db5533008c7e1fc7689619d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic"><sys_hub_flow_logic action="INSERT_OR_UPDATE"><block display_value="">6a041919db5533008c7e1fc7689619d2</block><comment/><connected_to/><display_text/><flow display_value="Update Group Membership">98a268a3db8933008c7e1fc768961991</flow><inputs/><logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition><order>8</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-07 21:25:23</sys_created_on><sys_id>a2041919db5533008c7e1fc7689619d4</sys_id><sys_mod_count>20</sys_mod_count><sys_name/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_hub_flow_logic_a2041919db5533008c7e1fc7689619d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-09 16:35:13</sys_updated_on><ui_id>9ec386f6-8c81-48a3-bc99-81558d0b9467</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=a2041919db5533008c7e1fc7689619d4"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_flow_logic</document><document_key>a2041919db5533008c7e1fc7689619d4</document_key><order>10</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-07 21:25:23</sys_created_on><sys_id>a2041919db5533008c7e1fc7689619d8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-07 21:25:23</sys_updated_on><value>Approved</value><variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_flow_logic</document><document_key>a2041919db5533008c7e1fc7689619d4</document_key><order>20</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-07 21:25:23</sys_created_on><sys_id>ee041919db5533008c7e1fc7689619d7</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-07 21:31:43</sys_updated_on><value>{{475982cb-9f90-4d49-a313-a389b527284b.approval_state}}=approved</value><variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>676092698</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>aab76732db0133008c7e1fc7689619c3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-09 16:35:13</sys_created_on>
+        <sys_id>3bc46ef5db5d73008c7e1fc768961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16a9d72e4380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-09 16:35:13</sys_updated_on>
+        <type>Flow Logic Instance</type>
+        <update_guid>b3c46ef5a85d730094911fa469a07d10</update_guid>
+        <update_guid_history>b3c46ef5a85d730094911fa469a07d10:676092698,39179ebdff1d73002b3b6dff76975aab:772506199,a6df4861175d3300b0d31c29ff2e8190:1417553273,2b75d9598a553300c347b52f66ee3094:-1413620424,66041919c1553300aa6e809211c338d9:-1267544460,a2041919c555330070a65cf19bc304d7:-1492032118</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-09 18:44:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow_logic">sys_hub_flow_logic</sys_db_object>
+        <sys_id>0ae19f2c12384ebb8d0c7a01c3f98399</sys_id>
+        <sys_metadata>a2041919db5533008c7e1fc7689619d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_logic_a2041919db5533008c7e1fc7689619d4</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_logic_a2041919db5533008c7e1fc7689619d4">3bc46ef5db5d73008c7e1fc768961910</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-09 18:44:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
